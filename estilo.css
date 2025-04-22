@@ -185,3 +185,64 @@ h2{
 .puravida .titulo.efecto4{
     color: #18385c;
 }
+
+/*Reponsivo*/
+@media (max-width: 768px) {
+    .inicio .contenido-seccion header nav {
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px 0;
+    }
+  
+    .titulo {
+      font-size: 5rem;
+      padding: 0 10px;
+    }
+  
+    .tours .fila {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .tours .fila .col {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .coleccion .fila {
+      grid-template-columns: 1fr;
+    }
+  
+    .coleccion .fila .col {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  
+    .subscribase input {
+      width: 90%;
+    }
+  
+    .puravida .redes a {
+      font-size: 30px;
+      margin: 0 15px;
+    }
+  }
+
+  /*para que la imagen no se corte*/
+  @media (max-width: 768px) {
+    .inicio .fondo-img,
+    .puravida {
+      background-position: center;
+      background-size: contain;
+      height: auto;
+    }
+  }
+  
+
+  /*para pantallas pequeñas*/
+  @media (max-width: 768px) {
+    .inicio .contenido-seccion header {
+      padding: 30px 10px;
+    }
+  }
+  
