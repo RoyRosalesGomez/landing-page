@@ -166,25 +166,6 @@ h2{
     text-align: center;
     border-radius: 5px;
 }
-/* SECCION PURA VIDA */
-.puravida{
-    background: url(img/esahora.jpg);
-    background-size: cover;
-    height: 100vh;
-}
-.puravida .redes{
-    text-align: center;
-}
-.puravida .redes a{
-    text-decoration: none;
-    font-size: 40px;
-    display: inline-block;
-    margin: 0 30px;
-    color: #18385c;
-}
-.puravida .titulo.efecto4{
-    color: #18385c;
-}
 
 /*Reponsivo*/
 @media (max-width: 768px) {
@@ -246,3 +227,23 @@ h2{
     }
   }
   
+/* SECCION PURA VIDA */
+.puravida{
+    background: url(img/esahora.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.puravida .redes{
+    text-align: center;
+}
+.puravida .redes a{
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 30px;
+    color: #18385c;
+}
+.puravida .titulo.efecto4{
+    color: #18385c;
+}
+
